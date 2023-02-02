@@ -8,6 +8,12 @@
 
 </Property>
 	<Item Name="Support" Type="Folder">
+		<Item Name="Libs" Type="Folder">
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+			<Item Name="flann.dll" Type="Document" URL="../flann/flann.dll"/>
+			<Item Name="flann_32.dll" Type="Document" URL="../flann/flann_32.dll"/>
+			<Item Name="flann_64.dll" Type="Document" URL="../flann/flann_64.dll"/>
+		</Item>
 		<Item Name="private" Type="Folder">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			<Item Name="subvi" Type="Folder">
@@ -26,9 +32,6 @@
 			<Item Name="find nearest neighbors index double.vi" Type="VI" URL="../flann/find nearest neighbors index double.vi"/>
 			<Item Name="find nearest neighbors index float.vi" Type="VI" URL="../flann/find nearest neighbors index float.vi"/>
 			<Item Name="find nearest neighbors index int.vi" Type="VI" URL="../flann/find nearest neighbors index int.vi"/>
-			<Item Name="flann.dll" Type="Document" URL="../flann/flann.dll"/>
-			<Item Name="flann_32.dll" Type="Document" URL="../flann/flann_32.dll"/>
-			<Item Name="flann_64.dll" Type="Document" URL="../flann/flann_64.dll"/>
 			<Item Name="free index.vi" Type="VI" URL="../flann/free index.vi"/>
 			<Item Name="get distance order.vi" Type="VI" URL="../flann/get distance order.vi"/>
 			<Item Name="radius search byte.vi" Type="VI" URL="../flann/radius search byte.vi"/>
