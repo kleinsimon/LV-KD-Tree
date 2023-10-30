@@ -12,9 +12,12 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="KD Tree.lvlib" Type="Library" URL="../KD Tree.lvlib"/>
-		<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
-		<Item Name="Test2.vi" Type="VI" URL="../Test2.vi"/>
+		<Item Name="Examples" Type="Folder">
+			<Item Name="Nearest Neighbors 2D Double.vi" Type="VI" URL="../Nearest Neighbors 2D Double.vi"/>
+			<Item Name="Radius Search 2D Int.vi" Type="VI" URL="../Radius Search 2D Int.vi"/>
+			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
+		</Item>
+		<Item Name="KD Tree.lvlib" Type="Library" URL="../../KD Tree.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
