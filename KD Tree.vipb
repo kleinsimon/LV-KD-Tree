@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-10-31 11:59:07" Modified_Date="2023-10-30 10:16:20" Creator="KLEINS" Comments="" ID="672879c17d77d910f06a27151284b5d4">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-10-31 11:59:07" Modified_Date="2023-10-30 10:26:10" Creator="KLEINS" Comments="" ID="138f9cc5bc125100350bd3ffbe6a53f8">
   <Library_General_Settings>
     <Package_File_Name>sklein_lib_KD_Tree</Package_File_Name>
-    <Library_Version>0.9.0.3</Library_Version>
+    <Library_Version>0.9.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
