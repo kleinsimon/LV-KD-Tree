@@ -16,43 +16,41 @@
 		</Item>
 		<Item Name="private" Type="Folder">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			<Item Name="subvi" Type="Folder">
-				<Item Name="Acquire Flann.vi" Type="VI" URL="../flann/subvi/Acquire Flann.vi"/>
-				<Item Name="Error Converter (ErrCode or Status).vi" Type="VI" URL="../flann/subvi/Error Converter (ErrCode or Status).vi"/>
-			</Item>
-			<Item Name="add points byte.vi" Type="VI" URL="../flann/add points byte.vi"/>
-			<Item Name="add points double.vi" Type="VI" URL="../flann/add points double.vi"/>
-			<Item Name="add points float.vi" Type="VI" URL="../flann/add points float.vi"/>
-			<Item Name="add points int.vi" Type="VI" URL="../flann/add points int.vi"/>
-			<Item Name="build index byte.vi" Type="VI" URL="../flann/build index byte.vi"/>
-			<Item Name="build index double.vi" Type="VI" URL="../flann/build index double.vi"/>
-			<Item Name="build index float.vi" Type="VI" URL="../flann/build index float.vi"/>
-			<Item Name="build index int.vi" Type="VI" URL="../flann/build index int.vi"/>
-			<Item Name="find nearest neighbors index byte.vi" Type="VI" URL="../flann/find nearest neighbors index byte.vi"/>
-			<Item Name="find nearest neighbors index double.vi" Type="VI" URL="../flann/find nearest neighbors index double.vi"/>
-			<Item Name="find nearest neighbors index float.vi" Type="VI" URL="../flann/find nearest neighbors index float.vi"/>
-			<Item Name="find nearest neighbors index int.vi" Type="VI" URL="../flann/find nearest neighbors index int.vi"/>
-			<Item Name="free index.vi" Type="VI" URL="../flann/free index.vi"/>
-			<Item Name="get distance order.vi" Type="VI" URL="../flann/get distance order.vi"/>
-			<Item Name="radius search byte.vi" Type="VI" URL="../flann/radius search byte.vi"/>
-			<Item Name="radius search double.vi" Type="VI" URL="../flann/radius search double.vi"/>
-			<Item Name="radius search float.vi" Type="VI" URL="../flann/radius search float.vi"/>
-			<Item Name="radius search int.vi" Type="VI" URL="../flann/radius search int.vi"/>
-			<Item Name="remove point.vi" Type="VI" URL="../flann/remove point.vi"/>
-			<Item Name="set distance type.vi" Type="VI" URL="../flann/set distance type.vi"/>
-			<Item Name="size.vi" Type="VI" URL="../flann/size.vi"/>
-			<Item Name="used memory.vi" Type="VI" URL="../flann/used memory.vi"/>
-			<Item Name="veclen.vi" Type="VI" URL="../flann/veclen.vi"/>
+			<Item Name="Acquire Flann.vi" Type="VI" URL="../Wrapper/Acquire Flann.vi"/>
+			<Item Name="add points byte.vi" Type="VI" URL="../Wrapper/add points byte.vi"/>
+			<Item Name="add points double.vi" Type="VI" URL="../Wrapper/add points double.vi"/>
+			<Item Name="add points float.vi" Type="VI" URL="../Wrapper/add points float.vi"/>
+			<Item Name="add points int.vi" Type="VI" URL="../Wrapper/add points int.vi"/>
+			<Item Name="build index byte.vi" Type="VI" URL="../Wrapper/build index byte.vi"/>
+			<Item Name="build index double.vi" Type="VI" URL="../Wrapper/build index double.vi"/>
+			<Item Name="build index float.vi" Type="VI" URL="../Wrapper/build index float.vi"/>
+			<Item Name="build index int.vi" Type="VI" URL="../Wrapper/build index int.vi"/>
+			<Item Name="Error Converter (ErrCode or Status).vi" Type="VI" URL="../Wrapper/Error Converter (ErrCode or Status).vi"/>
+			<Item Name="find nearest neighbors index byte.vi" Type="VI" URL="../Wrapper/find nearest neighbors index byte.vi"/>
+			<Item Name="find nearest neighbors index double.vi" Type="VI" URL="../Wrapper/find nearest neighbors index double.vi"/>
+			<Item Name="find nearest neighbors index float.vi" Type="VI" URL="../Wrapper/find nearest neighbors index float.vi"/>
+			<Item Name="find nearest neighbors index int.vi" Type="VI" URL="../Wrapper/find nearest neighbors index int.vi"/>
+			<Item Name="free index.vi" Type="VI" URL="../Wrapper/free index.vi"/>
+			<Item Name="get distance order.vi" Type="VI" URL="../Wrapper/get distance order.vi"/>
+			<Item Name="radius search byte.vi" Type="VI" URL="../Wrapper/radius search byte.vi"/>
+			<Item Name="radius search double.vi" Type="VI" URL="../Wrapper/radius search double.vi"/>
+			<Item Name="radius search float.vi" Type="VI" URL="../Wrapper/radius search float.vi"/>
+			<Item Name="radius search int.vi" Type="VI" URL="../Wrapper/radius search int.vi"/>
+			<Item Name="remove point.vi" Type="VI" URL="../Wrapper/remove point.vi"/>
+			<Item Name="set distance type.vi" Type="VI" URL="../Wrapper/set distance type.vi"/>
+			<Item Name="size.vi" Type="VI" URL="../Wrapper/size.vi"/>
+			<Item Name="used memory.vi" Type="VI" URL="../Wrapper/used memory.vi"/>
+			<Item Name="veclen.vi" Type="VI" URL="../Wrapper/veclen.vi"/>
 		</Item>
 		<Item Name="public" Type="Folder">
 			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-			<Item Name="compute cluster centers byte.vi" Type="VI" URL="../flann/compute cluster centers byte.vi"/>
-			<Item Name="compute cluster centers double.vi" Type="VI" URL="../flann/compute cluster centers double.vi"/>
-			<Item Name="compute cluster centers float.vi" Type="VI" URL="../flann/compute cluster centers float.vi"/>
-			<Item Name="compute cluster centers int.vi" Type="VI" URL="../flann/compute cluster centers int.vi"/>
-			<Item Name="Distance Type.ctl" Type="VI" URL="../flann/Distance Type.ctl"/>
-			<Item Name="Flann Params.ctl" Type="VI" URL="../flann/Flann Params.ctl"/>
-			<Item Name="lib path.vi" Type="VI" URL="../flann/lib path.vi"/>
+			<Item Name="compute cluster centers byte.vi" Type="VI" URL="../Wrapper/compute cluster centers byte.vi"/>
+			<Item Name="compute cluster centers double.vi" Type="VI" URL="../Wrapper/compute cluster centers double.vi"/>
+			<Item Name="compute cluster centers float.vi" Type="VI" URL="../Wrapper/compute cluster centers float.vi"/>
+			<Item Name="compute cluster centers int.vi" Type="VI" URL="../Wrapper/compute cluster centers int.vi"/>
+			<Item Name="Distance Type.ctl" Type="VI" URL="../Wrapper/Distance Type.ctl"/>
+			<Item Name="Flann Params.ctl" Type="VI" URL="../Wrapper/Flann Params.ctl"/>
+			<Item Name="lib path.vi" Type="VI" URL="../Wrapper/lib path.vi"/>
 		</Item>
 		<Item Name="KD Tree Byte.lvclass" Type="LVClass" URL="../Classes/KD Tree Byte/KD Tree Byte.lvclass"/>
 		<Item Name="KD Tree Double.lvclass" Type="LVClass" URL="../Classes/KD Tree Double/KD Tree Double.lvclass"/>
